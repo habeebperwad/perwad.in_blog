@@ -125,17 +125,22 @@ def visualize(data, training_data_counts):
         "Stemming": "g", 
         "All words": "c", 
         "No stop words": "y"}
+    #plt.title("I couldnt find a title for this plot!")
+    plt.ylabel('Accuracy of classification')
+    plt.xlabel('Number of examples in training data')
 
     for k,v in colors.items():
         plt.plot(training_data_counts, [sample[k] for sample in data], v, label=k,)
 
+    gca = plt.gca()
+    gca.set_yticklabels(['{:.0f}%'.format(x) for x in gca.get_yticks()]) 
     plt.legend()
-    plt.show()
+    plt.savefig('output.png')  # plt.show()
 
 
 def start():
     data = []
-    training_data_counts = [20, 30, 40, 50, 60, 70, 80]
+    training_data_counts = [30, 40, 50, 60, 70, 80]
     for tot in training_data_counts:
         print("-" * 80)
         print("Training data size: %d\n\n" % tot)

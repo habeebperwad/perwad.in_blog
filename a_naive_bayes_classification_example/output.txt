@@ -1,0 +1,564 @@
+--------------------------------------------------------------------------------
+Training data size: 30
+
+
+# All words used for feature.
+Reading the data of type: profile
+Reading the data of type: obituary
+Number of features: 5253
+Accuracy: 94.66
+Most Informative Features
+          contains(they) = False          profil : obitua =     10.3 : 1.0
+          contains(were) = False          profil : obitua =     10.3 : 1.0
+         contains(about) = True           obitua : profil =     10.3 : 1.0
+             contains(i) = False          profil : obitua =     10.3 : 1.0
+           contains(one) = True           obitua : profil =      9.0 : 1.0
+          contains(york) = True           obitua : profil =      9.0 : 1.0
+          contains(have) = True           obitua : profil =      9.0 : 1.0
+          contains(home) = True           obitua : profil =      8.3 : 1.0
+           contains(are) = True           obitua : profil =      8.3 : 1.0
+         contains(three) = True           obitua : profil =      8.3 : 1.0
+
+
+# No stop words used for feature.
+Number of features: 5116
+Accuracy: 91.29
+Most Informative Features
+           contains(one) = True           obitua : profil =      9.0 : 1.0
+          contains(york) = True           obitua : profil =      9.0 : 1.0
+          contains(home) = True           obitua : profil =      8.3 : 1.0
+         contains(three) = True           obitua : profil =      8.3 : 1.0
+        contains(former) = True           obitua : profil =      8.3 : 1.0
+         contains(never) = True           obitua : profil =      7.7 : 1.0
+          contains(high) = True           obitua : profil =      7.7 : 1.0
+        contains(school) = True           obitua : profil =      7.7 : 1.0
+        contains(people) = True           obitua : profil =      7.0 : 1.0
+          contains(like) = True           obitua : profil =      7.0 : 1.0
+
+
+# Only stop words used for feature.
+Number of features: 137
+Accuracy: 99.79
+Most Informative Features
+             contains(i) = False          profil : obitua =     10.3 : 1.0
+         contains(about) = True           obitua : profil =     10.3 : 1.0
+          contains(were) = False          profil : obitua =     10.3 : 1.0
+          contains(they) = False          profil : obitua =     10.3 : 1.0
+          contains(have) = True           obitua : profil =      9.0 : 1.0
+           contains(are) = True           obitua : profil =      8.3 : 1.0
+            contains(it) = False          profil : obitua =      7.7 : 1.0
+          contains(only) = True           obitua : profil =      7.7 : 1.0
+            contains(me) = True           obitua : profil =      7.0 : 1.0
+         contains(while) = True           obitua : profil =      7.0 : 1.0
+
+
+# Only common words used for feature.
+Number of features: 744
+Accuracy: 99.75
+Most Informative Features
+          contains(were) = False          profil : obitua =     10.3 : 1.0
+          contains(they) = False          profil : obitua =     10.3 : 1.0
+             contains(i) = False          profil : obitua =     10.3 : 1.0
+         contains(about) = True           obitua : profil =     10.3 : 1.0
+           contains(one) = True           obitua : profil =      9.0 : 1.0
+          contains(have) = True           obitua : profil =      9.0 : 1.0
+          contains(home) = True           obitua : profil =      8.3 : 1.0
+         contains(three) = True           obitua : profil =      8.3 : 1.0
+           contains(are) = True           obitua : profil =      8.3 : 1.0
+        contains(former) = True           obitua : profil =      8.3 : 1.0
+
+
+# Stemmed words used for feature.
+Number of features: 4232
+Accuracy: 97.48
+Most Informative Features
+          contains(they) = False          profil : obitua =     10.3 : 1.0
+          contains(were) = False          profil : obitua =     10.3 : 1.0
+         contains(about) = True           obitua : profil =     10.3 : 1.0
+             contains(i) = False          profil : obitua =     10.3 : 1.0
+           contains(one) = False          profil : obitua =      9.7 : 1.0
+           contains(one) = True           obitua : profil =      9.7 : 1.0
+          contains(york) = True           obitua : profil =      9.0 : 1.0
+          contains(have) = True           obitua : profil =      9.0 : 1.0
+            contains(be) = False          profil : obitua =      8.3 : 1.0
+           contains(are) = True           obitua : profil =      8.3 : 1.0
+
+
+
+
+--------------------------------------------------------------------------------
+Training data size: 40
+
+
+# All words used for feature.
+Number of features: 6316
+Accuracy: 96.83
+Most Informative Features
+          contains(were) = True           obitua : profil =     13.0 : 1.0
+          contains(were) = False          profil : obitua =     13.0 : 1.0
+         contains(about) = False          profil : obitua =     13.0 : 1.0
+         contains(about) = True           obitua : profil =     13.0 : 1.0
+          contains(born) = True           obitua : profil =     13.0 : 1.0
+          contains(born) = False          profil : obitua =     13.0 : 1.0
+          contains(they) = True           obitua : profil =     12.3 : 1.0
+           contains(one) = True           obitua : profil =     12.3 : 1.0
+          contains(have) = True           obitua : profil =     12.3 : 1.0
+           contains(are) = True           obitua : profil =     11.0 : 1.0
+
+
+# No stop words used for feature.
+Number of features: 6178
+Accuracy: 94.00
+Most Informative Features
+          contains(born) = True           obitua : profil =     13.0 : 1.0
+          contains(born) = False          profil : obitua =     13.0 : 1.0
+           contains(one) = True           obitua : profil =     12.3 : 1.0
+         contains(three) = True           obitua : profil =     11.0 : 1.0
+        contains(people) = True           obitua : profil =      9.7 : 1.0
+          contains(back) = True           obitua : profil =      9.7 : 1.0
+          contains(like) = True           obitua : profil =      9.0 : 1.0
+         contains(would) = True           obitua : profil =      9.0 : 1.0
+        contains(called) = True           obitua : profil =      8.3 : 1.0
+      contains(american) = True           obitua : profil =      8.3 : 1.0
+
+
+# Only stop words used for feature.
+Number of features: 138
+Accuracy: 99.79
+Most Informative Features
+         contains(about) = False          profil : obitua =     13.0 : 1.0
+          contains(were) = True           obitua : profil =     13.0 : 1.0
+         contains(about) = True           obitua : profil =     13.0 : 1.0
+          contains(were) = False          profil : obitua =     13.0 : 1.0
+          contains(have) = True           obitua : profil =     12.3 : 1.0
+          contains(they) = True           obitua : profil =     12.3 : 1.0
+           contains(are) = True           obitua : profil =     11.0 : 1.0
+            contains(it) = False          profil : obitua =      9.7 : 1.0
+         contains(their) = True           obitua : profil =      9.7 : 1.0
+          contains(only) = True           obitua : profil =      9.7 : 1.0
+
+
+# Only common words used for feature.
+Number of features: 787
+Accuracy: 99.79
+Most Informative Features
+          contains(born) = True           obitua : profil =     13.0 : 1.0
+          contains(born) = False          profil : obitua =     13.0 : 1.0
+          contains(were) = True           obitua : profil =     13.0 : 1.0
+          contains(were) = False          profil : obitua =     13.0 : 1.0
+         contains(about) = False          profil : obitua =     13.0 : 1.0
+         contains(about) = True           obitua : profil =     13.0 : 1.0
+           contains(one) = True           obitua : profil =     12.3 : 1.0
+          contains(they) = True           obitua : profil =     12.3 : 1.0
+          contains(have) = True           obitua : profil =     12.3 : 1.0
+         contains(three) = True           obitua : profil =     11.0 : 1.0
+
+
+# Stemmed words used for feature.
+Number of features: 4991
+Accuracy: 98.27
+Most Informative Features
+           contains(one) = False          profil : obitua =     13.0 : 1.0
+           contains(one) = True           obitua : profil =     13.0 : 1.0
+          contains(were) = True           obitua : profil =     13.0 : 1.0
+          contains(were) = False          profil : obitua =     13.0 : 1.0
+         contains(about) = False          profil : obitua =     13.0 : 1.0
+         contains(about) = True           obitua : profil =     13.0 : 1.0
+          contains(born) = True           obitua : profil =     13.0 : 1.0
+          contains(born) = False          profil : obitua =     13.0 : 1.0
+          contains(they) = True           obitua : profil =     12.3 : 1.0
+          contains(have) = True           obitua : profil =     12.3 : 1.0
+
+
+
+
+--------------------------------------------------------------------------------
+Training data size: 50
+
+
+# All words used for feature.
+Number of features: 7102
+Accuracy: 97.96
+Most Informative Features
+          contains(born) = True           obitua : profil =     16.3 : 1.0
+          contains(born) = False          profil : obitua =     16.3 : 1.0
+           contains(one) = True           obitua : profil =     15.7 : 1.0
+          contains(were) = False          profil : obitua =     15.7 : 1.0
+         contains(about) = True           obitua : profil =     15.7 : 1.0
+           contains(are) = True           obitua : profil =     14.3 : 1.0
+         contains(three) = True           obitua : profil =     14.3 : 1.0
+            contains(it) = False          profil : obitua =     12.3 : 1.0
+          contains(when) = False          profil : obitua =     12.3 : 1.0
+        contains(people) = True           obitua : profil =     11.7 : 1.0
+
+
+# No stop words used for feature.
+Number of features: 6963
+Accuracy: 96.39
+Most Informative Features
+          contains(born) = True           obitua : profil =     16.3 : 1.0
+          contains(born) = False          profil : obitua =     16.3 : 1.0
+           contains(one) = True           obitua : profil =     15.7 : 1.0
+         contains(three) = True           obitua : profil =     14.3 : 1.0
+        contains(people) = True           obitua : profil =     11.7 : 1.0
+        contains(called) = True           obitua : profil =     11.0 : 1.0
+        contains(united) = True           obitua : profil =     11.0 : 1.0
+        contains(career) = True           obitua : profil =     11.0 : 1.0
+         contains(found) = True           obitua : profil =     11.0 : 1.0
+       contains(married) = True           obitua : profil =     10.3 : 1.0
+
+
+# Only stop words used for feature.
+Number of features: 139
+Accuracy: 99.87
+Most Informative Features
+         contains(about) = True           obitua : profil =     15.7 : 1.0
+          contains(were) = False          profil : obitua =     15.7 : 1.0
+           contains(are) = True           obitua : profil =     14.3 : 1.0
+          contains(when) = False          profil : obitua =     12.3 : 1.0
+            contains(it) = False          profil : obitua =     12.3 : 1.0
+         contains(after) = False          profil : obitua =     11.0 : 1.0
+          contains(only) = True           obitua : profil =     11.0 : 1.0
+             contains(i) = False          profil : obitua =     10.2 : 1.0
+         contains(about) = False          profil : obitua =      9.8 : 1.0
+          contains(were) = True           obitua : profil =      9.8 : 1.0
+
+
+# Only common words used for feature.
+Number of features: 816
+Accuracy: 99.92
+Most Informative Features
+          contains(born) = True           obitua : profil =     16.3 : 1.0
+          contains(born) = False          profil : obitua =     16.3 : 1.0
+           contains(one) = True           obitua : profil =     15.7 : 1.0
+          contains(were) = False          profil : obitua =     15.7 : 1.0
+         contains(about) = True           obitua : profil =     15.7 : 1.0
+         contains(three) = True           obitua : profil =     14.3 : 1.0
+           contains(are) = True           obitua : profil =     14.3 : 1.0
+            contains(it) = False          profil : obitua =     12.3 : 1.0
+          contains(when) = False          profil : obitua =     12.3 : 1.0
+        contains(people) = True           obitua : profil =     11.7 : 1.0
+
+
+# Stemmed words used for feature.
+Number of features: 5525
+Accuracy: 99.19
+Most Informative Features
+           contains(one) = False          profil : obitua =     16.3 : 1.0
+           contains(one) = True           obitua : profil =     16.3 : 1.0
+          contains(born) = True           obitua : profil =     16.3 : 1.0
+          contains(born) = False          profil : obitua =     16.3 : 1.0
+          contains(were) = False          profil : obitua =     15.7 : 1.0
+         contains(about) = True           obitua : profil =     15.7 : 1.0
+            contains(be) = False          profil : obitua =     15.0 : 1.0
+           contains(are) = True           obitua : profil =     14.3 : 1.0
+         contains(three) = True           obitua : profil =     14.3 : 1.0
+         contains(peopl) = True           obitua : profil =     12.3 : 1.0
+
+
+
+
+--------------------------------------------------------------------------------
+Training data size: 60
+
+
+# All words used for feature.
+Number of features: 7833
+Accuracy: 98.76
+Most Informative Features
+          contains(born) = True           obitua : profil =     19.7 : 1.0
+          contains(born) = False          profil : obitua =     19.7 : 1.0
+          contains(were) = False          profil : obitua =     18.3 : 1.0
+           contains(one) = True           obitua : profil =     17.7 : 1.0
+         contains(about) = True           obitua : profil =     17.7 : 1.0
+         contains(three) = True           obitua : profil =     17.7 : 1.0
+           contains(are) = True           obitua : profil =     15.7 : 1.0
+         contains(other) = True           obitua : profil =     15.7 : 1.0
+            contains(it) = False          profil : obitua =     15.0 : 1.0
+          contains(when) = False          profil : obitua =     15.0 : 1.0
+
+
+# No stop words used for feature.
+Number of features: 7694
+Accuracy: 97.49
+Most Informative Features
+          contains(born) = True           obitua : profil =     19.7 : 1.0
+          contains(born) = False          profil : obitua =     19.7 : 1.0
+           contains(one) = True           obitua : profil =     17.7 : 1.0
+         contains(three) = True           obitua : profil =     17.7 : 1.0
+        contains(called) = True           obitua : profil =     13.0 : 1.0
+        contains(career) = True           obitua : profil =     13.0 : 1.0
+        contains(people) = True           obitua : profil =     12.3 : 1.0
+        contains(united) = True           obitua : profil =     12.3 : 1.0
+      contains(american) = True           obitua : profil =     12.3 : 1.0
+         contains(found) = True           obitua : profil =     12.3 : 1.0
+
+
+# Only stop words used for feature.
+Number of features: 139
+Accuracy: 99.87
+Most Informative Features
+          contains(were) = False          profil : obitua =     18.3 : 1.0
+         contains(about) = True           obitua : profil =     17.7 : 1.0
+         contains(other) = True           obitua : profil =     15.7 : 1.0
+           contains(are) = True           obitua : profil =     15.7 : 1.0
+          contains(when) = False          profil : obitua =     15.0 : 1.0
+            contains(it) = False          profil : obitua =     15.0 : 1.0
+         contains(after) = False          profil : obitua =     14.3 : 1.0
+          contains(only) = True           obitua : profil =     12.3 : 1.0
+             contains(i) = False          profil : obitua =     12.2 : 1.0
+           contains(had) = False          profil : obitua =     11.0 : 1.0
+
+
+# Only common words used for feature.
+Number of features: 831
+Accuracy: 99.91
+Most Informative Features
+          contains(born) = True           obitua : profil =     19.7 : 1.0
+          contains(born) = False          profil : obitua =     19.7 : 1.0
+          contains(were) = False          profil : obitua =     18.3 : 1.0
+           contains(one) = True           obitua : profil =     17.7 : 1.0
+         contains(three) = True           obitua : profil =     17.7 : 1.0
+         contains(about) = True           obitua : profil =     17.7 : 1.0
+           contains(are) = True           obitua : profil =     15.7 : 1.0
+         contains(other) = True           obitua : profil =     15.7 : 1.0
+            contains(it) = False          profil : obitua =     15.0 : 1.0
+          contains(when) = False          profil : obitua =     15.0 : 1.0
+
+
+# Stemmed words used for feature.
+Number of features: 6043
+Accuracy: 99.49
+Most Informative Features
+          contains(born) = True           obitua : profil =     19.7 : 1.0
+          contains(born) = False          profil : obitua =     19.7 : 1.0
+            contains(be) = False          profil : obitua =     18.3 : 1.0
+           contains(one) = True           obitua : profil =     18.3 : 1.0
+          contains(were) = False          profil : obitua =     18.3 : 1.0
+         contains(about) = True           obitua : profil =     17.7 : 1.0
+         contains(three) = True           obitua : profil =     17.7 : 1.0
+           contains(are) = True           obitua : profil =     15.7 : 1.0
+         contains(other) = True           obitua : profil =     15.7 : 1.0
+          contains(when) = False          profil : obitua =     15.0 : 1.0
+
+
+
+
+--------------------------------------------------------------------------------
+Training data size: 70
+
+
+# All words used for feature.
+Number of features: 8735
+Accuracy: 98.93
+Most Informative Features
+          contains(born) = False          profil : obitua =     22.3 : 1.0
+          contains(were) = False          profil : obitua =     21.0 : 1.0
+         contains(three) = True           obitua : profil =     20.3 : 1.0
+         contains(about) = True           obitua : profil =     19.7 : 1.0
+         contains(other) = True           obitua : profil =     19.0 : 1.0
+           contains(are) = True           obitua : profil =     18.3 : 1.0
+          contains(when) = False          profil : obitua =     18.3 : 1.0
+            contains(it) = False          profil : obitua =     17.7 : 1.0
+         contains(there) = True           obitua : profil =     17.7 : 1.0
+         contains(after) = False          profil : obitua =     16.3 : 1.0
+
+
+# No stop words used for feature.
+Number of features: 8596
+Accuracy: 97.82
+Most Informative Features
+          contains(born) = False          profil : obitua =     22.3 : 1.0
+         contains(three) = True           obitua : profil =     20.3 : 1.0
+        contains(people) = True           obitua : profil =     15.0 : 1.0
+        contains(united) = True           obitua : profil =     15.0 : 1.0
+      contains(american) = True           obitua : profil =     15.0 : 1.0
+          contains(work) = True           obitua : profil =     15.0 : 1.0
+          contains(born) = True           obitua : profil =     13.8 : 1.0
+         contains(found) = True           obitua : profil =     13.7 : 1.0
+           contains(man) = True           obitua : profil =     13.7 : 1.0
+           contains(one) = True           obitua : profil =     12.2 : 1.0
+
+
+# Only stop words used for feature.
+Number of features: 139
+Accuracy: 99.87
+Most Informative Features
+          contains(were) = False          profil : obitua =     21.0 : 1.0
+         contains(about) = True           obitua : profil =     19.7 : 1.0
+         contains(other) = True           obitua : profil =     19.0 : 1.0
+          contains(when) = False          profil : obitua =     18.3 : 1.0
+           contains(are) = True           obitua : profil =     18.3 : 1.0
+         contains(there) = True           obitua : profil =     17.7 : 1.0
+            contains(it) = False          profil : obitua =     17.7 : 1.0
+         contains(after) = False          profil : obitua =     16.3 : 1.0
+          contains(only) = True           obitua : profil =     14.3 : 1.0
+             contains(i) = False          profil : obitua =     14.2 : 1.0
+
+
+# Only common words used for feature.
+Number of features: 865
+Accuracy: 99.91
+Most Informative Features
+          contains(born) = False          profil : obitua =     22.3 : 1.0
+          contains(were) = False          profil : obitua =     21.0 : 1.0
+         contains(three) = True           obitua : profil =     20.3 : 1.0
+         contains(about) = True           obitua : profil =     19.7 : 1.0
+         contains(other) = True           obitua : profil =     19.0 : 1.0
+          contains(when) = False          profil : obitua =     18.3 : 1.0
+           contains(are) = True           obitua : profil =     18.3 : 1.0
+            contains(it) = False          profil : obitua =     17.7 : 1.0
+         contains(there) = True           obitua : profil =     17.7 : 1.0
+         contains(after) = False          profil : obitua =     16.3 : 1.0
+
+
+# Stemmed words used for feature.
+Number of features: 6679
+Accuracy: 99.61
+Most Informative Features
+          contains(born) = False          profil : obitua =     22.3 : 1.0
+          contains(were) = False          profil : obitua =     21.0 : 1.0
+         contains(three) = True           obitua : profil =     20.3 : 1.0
+         contains(about) = True           obitua : profil =     19.7 : 1.0
+         contains(other) = True           obitua : profil =     19.0 : 1.0
+           contains(are) = True           obitua : profil =     18.3 : 1.0
+          contains(when) = False          profil : obitua =     18.3 : 1.0
+         contains(there) = True           obitua : profil =     17.7 : 1.0
+          contains(live) = True           obitua : profil =     16.3 : 1.0
+         contains(after) = False          profil : obitua =     16.3 : 1.0
+
+
+
+
+--------------------------------------------------------------------------------
+Training data size: 80
+
+
+# All words used for feature.
+Number of features: 9167
+Accuracy: 99.48
+Most Informative Features
+          contains(died) = True           obitua : profil =     27.0 : 1.0
+          contains(born) = False          profil : obitua =     25.7 : 1.0
+         contains(about) = True           obitua : profil =     23.0 : 1.0
+         contains(three) = True           obitua : profil =     21.7 : 1.0
+            contains(it) = False          profil : obitua =     19.0 : 1.0
+           contains(are) = True           obitua : profil =     19.0 : 1.0
+          contains(many) = True           obitua : profil =     18.3 : 1.0
+         contains(there) = True           obitua : profil =     18.3 : 1.0
+          contains(from) = False          profil : obitua =     18.3 : 1.0
+      contains(american) = True           obitua : profil =     17.0 : 1.0
+
+
+# No stop words used for feature.
+Number of features: 9027
+Accuracy: 98.45
+Most Informative Features
+          contains(died) = True           obitua : profil =     27.0 : 1.0
+          contains(born) = False          profil : obitua =     25.7 : 1.0
+         contains(three) = True           obitua : profil =     21.7 : 1.0
+          contains(many) = True           obitua : profil =     18.3 : 1.0
+      contains(american) = True           obitua : profil =     17.0 : 1.0
+         contains(found) = True           obitua : profil =     16.3 : 1.0
+          contains(work) = True           obitua : profil =     16.3 : 1.0
+          contains(born) = True           obitua : profil =     15.8 : 1.0
+        contains(people) = True           obitua : profil =     15.7 : 1.0
+        contains(united) = True           obitua : profil =     15.7 : 1.0
+
+
+# Only stop words used for feature.
+Number of features: 140
+Accuracy: 99.91
+Most Informative Features
+         contains(about) = True           obitua : profil =     23.0 : 1.0
+           contains(are) = True           obitua : profil =     19.0 : 1.0
+            contains(it) = False          profil : obitua =     19.0 : 1.0
+         contains(there) = True           obitua : profil =     18.3 : 1.0
+          contains(from) = False          profil : obitua =     18.3 : 1.0
+          contains(were) = False          profil : obitua =     14.6 : 1.0
+           contains(did) = True           obitua : profil =     14.3 : 1.0
+            contains(so) = True           obitua : profil =     14.3 : 1.0
+           contains(had) = False          profil : obitua =     14.2 : 1.0
+            contains(me) = True           obitua : profil =     13.7 : 1.0
+
+
+# Only common words used for feature.
+Number of features: 875
+Accuracy: 99.96
+Most Informative Features
+          contains(died) = True           obitua : profil =     27.0 : 1.0
+          contains(born) = False          profil : obitua =     25.7 : 1.0
+         contains(about) = True           obitua : profil =     23.0 : 1.0
+         contains(three) = True           obitua : profil =     21.7 : 1.0
+            contains(it) = False          profil : obitua =     19.0 : 1.0
+           contains(are) = True           obitua : profil =     19.0 : 1.0
+         contains(there) = True           obitua : profil =     18.3 : 1.0
+          contains(many) = True           obitua : profil =     18.3 : 1.0
+          contains(from) = False          profil : obitua =     18.3 : 1.0
+         contains(found) = True           obitua : profil =     16.3 : 1.0
+
+
+# Stemmed words used for feature.
+Number of features: 6991
+Accuracy: 99.70
+Most Informative Features
+           contains(die) = True           obitua : profil =     27.0 : 1.0
+          contains(born) = False          profil : obitua =     25.7 : 1.0
+         contains(about) = True           obitua : profil =     23.0 : 1.0
+         contains(three) = True           obitua : profil =     21.7 : 1.0
+           contains(are) = True           obitua : profil =     19.0 : 1.0
+          contains(mani) = True           obitua : profil =     18.3 : 1.0
+         contains(there) = True           obitua : profil =     18.3 : 1.0
+          contains(from) = False          profil : obitua =     18.3 : 1.0
+      contains(american) = True           obitua : profil =     17.7 : 1.0
+          contains(play) = True           obitua : profil =     17.7 : 1.0
+
+
+
+
+
+Summary:
+[
+  {
+    "Only stop words": 99.79,
+    "All words": 94.66,
+    "Stemming": 97.48,
+    "Only common words": 99.75,
+    "No stop words": 91.29
+  },
+  {
+    "Only stop words": 99.79,
+    "All words": 96.83,
+    "Stemming": 98.27,
+    "Only common words": 99.79,
+    "No stop words": 94.0
+  },
+  {
+    "Only stop words": 99.87,
+    "All words": 97.96,
+    "Stemming": 99.19,
+    "Only common words": 99.92,
+    "No stop words": 96.39
+  },
+  {
+    "Only stop words": 99.87,
+    "All words": 98.76,
+    "Stemming": 99.49,
+    "Only common words": 99.91,
+    "No stop words": 97.49
+  },
+  {
+    "Only stop words": 99.87,
+    "All words": 98.93,
+    "Stemming": 99.61,
+    "Only common words": 99.91,
+    "No stop words": 97.82
+  },
+  {
+    "Only stop words": 99.91,
+    "All words": 99.48,
+    "Stemming": 99.7,
+    "Only common words": 99.96,
+    "No stop words": 98.45
+  }
+]
